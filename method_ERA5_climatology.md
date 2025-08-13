@@ -1,7 +1,7 @@
-# ERA5 20-Year 10-Day Average Climatology
+# ERA5 10-Year 10-Day Average Climatology
 
-This script creates a **20-year (2000–2019) climatology** of mid-November 10-day (10–19 Nov) average diurnal cycles for both ERA5 **pressure-level** and **surface** variables.  
-It is designed for producing boundary conditions compatible with ACCESS-rAM3, with the **time axis reset to 12 Dec 2016**.
+This script creates a **10-year (2010–2019) climatology** of mid-November 10-day (10–19 Nov) average diurnal cycles for both ERA5 **pressure-level** and **surface** variables.   
+It is designed for producing boundary conditions compatible with ACCESS-rAM3, with the **time axis reset to 12 Dec 2019**. This is simply as it was the date of the first test case. 
 
 ## Input data
 - ERA5 hourly reanalysis from `/g/data/rt52/era5/`
@@ -9,15 +9,15 @@ It is designed for producing boundary conditions compatible with ACCESS-rAM3, wi
 - Surface variables (`ci`, `sd`, `sp`, `stl1–4`, `swvl1–4`, `z`, `lsm`, `skt`, `sst`)
 
 ## Output
-- Written to `/scratch/gb02/cc6171/era5/.../10dayav20yr/`
+- Written to `/scratch/gb02/cc6171/era5/.../10dayav_2010-2019/`
 - One file per variable, e.g.  
   ```
-  /scratch/gb02/cc6171/era5/pressure-levels/reanalysis/u/10dayav20yr/u_10dayav20yr.nc
+  /scratch/gb02/cc6171/era5/pressure-levels/reanalysis/u/10dayav2010-2019/.....nc
   ```
-- Files contain a **24-hour diurnal cycle** (averaged over 2000–2019), spatially subset to the Tiwi Islands region.
+- Files contain a **24-hour diurnal cycle** (averaged over 10 to 19 Nov, 2010 to 2019), spatially subset to a region (lon=125–140`, `lat=-15 to -5) substantially larger than the outer domain .
 
 ## Running on Gadi
-1. **Load the required module:**
+1. **Load the required module:**   Not needed I think as this is in the script.
    ```bash
    module load cdo
    ```
@@ -26,13 +26,6 @@ It is designed for producing boundary conditions compatible with ACCESS-rAM3, wi
    ```bash
    qsub era5_10dayav_20yr.sh
    ```
-
-3. **PBS job settings:**
-   - Queue: `normal`
-   - Walltime: `12:00:00`
-   - Memory: `64GB`
-   - Temporary jobfs: `100GB`
-   - 1 CPU (processing is sequential to avoid I/O contention)
 
 4. **Output check:**
    Monitor job progress with:
@@ -46,5 +39,4 @@ It is designed for producing boundary conditions compatible with ACCESS-rAM3, wi
 
 ## Notes
 - The script processes each variable independently to avoid memory spikes.
-- Spatial subset is set to `lon=125–140`, `lat=-15 to -5` (Tiwi Islands region).
-- Adjust years, bounding box, or variable lists inside the script if needed.
+- Adjust years, bounding box, or variable lists inside the script if needed, other scripts in directory exist for 1980s, 1990s, and 2000s.
