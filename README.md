@@ -23,5 +23,6 @@ see method_ERA5_climatology.md
 
 # Early tests
 12 December 2016 vs 12 Dec 2016 with zero wind applied to the initial and boundary conditions.
+
 https://github.com/user-attachments/assets/5a4778a0-930a-4998-8eab-33fe083d127c
 
