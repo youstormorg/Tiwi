@@ -13,6 +13,8 @@ UM Chemistry page for details on adding variables using the rose GUI: https://ww
 Mat Lipson et al. github on the Sydney 1 km domain, it is this setup that was the base domain setup that I have used: 
 https://github.com/21centuryweather/RNS_Sydney_1km
 
+# Domain setup
+![Alt text](figs/Tiwi_domains.png "Optional Title")
 
 # Creating the ERA5 decadal mid November climatologies
 see method_ERA5_climatology.md
