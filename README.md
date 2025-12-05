@@ -18,6 +18,38 @@ UM Chemistry page for details on adding variables using the rose GUI: https://ww
 Mat Lipson et al. github on the Sydney 1 km domain, it is this setup that was the base domain setup that we have used: 
 https://github.com/21centuryweather/RNS_Sydney_1km
 
+# Setup ACCESS-rAM3 to read your modified ERA5 files
+
+As of December 2025 these are just rough notes on this process and the directories are those that I used. This method was used in the middle of 2025 using the first full release of ACCESS-rAM3 so there may be potential changes that have occured since - adapt accordingly ;) Thanks to Paul Gregory for helping out and Chermelle Engel for her python scripts and advice.
+What we are doing here is creating copies of some ACCESS-rAM3 scripts so that we can modify them to change the directory where they access the ERA5 directories.
+Create a new directory that will contain the nci_era5grib_parralel python scripts
+cd
+mkdir era5grib_parallel
+•	So this is now going to be my nci_era5grib_parralel directory:
+/home/563/cc6171/era5grib_parallel
+•	It is OK to keep in my home directory as it is just scripts so not large.
+•	Now copy Chermelle’s nci_era5grib_parralel python scripts to this directory.
+cd era5grib_parallel
+cp /g/data/vk83/apps/conda/access-ram/2025.03.0/lib/python3.11/site-packages/era5grib_parallel/cdo_era5grib.py ./
+cp /g/data/vk83/apps/conda/access-ram/2025.03.0/lib/python3.11/site-packages/era5grib_parallel/nci_era5grib_parallel.py ./
+cp 
+•	Now change the ERA5 directory so that it now uses your modified "fake" ERA5 directories.
+vi cdo_era5grib.py
+ERADIR = "/scratch/gb02/cc6171/era5"
+•	Creating your own fake ERA5 directories.
+•	do on gdata -future work, currently on scratch/gb02/cc6171/era5
+•	make sure you keep the same subdirectory structure as used for the original ERA5 data on NCI. This is because the python scripts access and define these sub directories. These could be changed in the scripts at a later date but for the moment, and probably forever I’m keeping as is.
+cd /scratch/gb02/cc6171/
+•	make your new base era5 directory - should move this off scratch.
+•	ALL OF THE BELOW IS BETTER DONE WITH CHATGPT CREATED SCRIPTS.
+mkdir era5
+cd era5
+•	ERA5 directories, create these directories for all the variables both 3D and 2D used as input to ACCESS-rAM3:
+/g/data/rt52/era5
+/g/data/rt52/era5/single-levels/reanalysis/......
+/g/data/rt52/era5/pressure-levels/reanalysis/.....
+
+
 # Domain setup
 ![Alt text](figs/Tiwi_domains.png "Optional Title")
 
