@@ -60,6 +60,7 @@ cd era5
 *	ERA5 directories, create these directory structures for all the variables both 3D and 2D used as input to ACCESS-rAM3:
 
 era5/single-levels/reanalysis/......
+
 era5/pressure-levels/reanalysis/.....
 
 
