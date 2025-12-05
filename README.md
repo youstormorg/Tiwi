@@ -2,7 +2,7 @@
 Greetings! This github is in very early stages but the end goal will be to fully explain our Tiwi Island thunderstorm simulations run under modified ERA5 initial conditions. This type of setup could be used for other experiments where the initial data needs to be modified.
 A brief overview of the method - we modify the ERA5 initial and boundary conditions creating new ERA5 files that have identical formatting and place them in a new "fake" ERA5 directory tree. 
 We copy over some of the ACCESS-rAM3 python scripts and redirect where they access the ERA5 files so that they read in our new files. Some other modifications are needed and will be documented here.
-So long as this is done correctly and the date and time of your ERA5 modified files match those set for your ACCESS-rAM3, this should work.
+So long as this is done correctly and the date and time of your ERA5 modified files match those you have set in ACCESS-rAM3, this should work.
 
 Tiwi Islands ACCESS 
 This repository contains information about the Tiwi Islands thunderstorm configuration. It is being maintained by Chris Chambers (cchambers@unimelb.edu.au)
