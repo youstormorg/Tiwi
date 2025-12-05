@@ -50,6 +50,9 @@ ERADIR = "/scratch/gb02/cc6171/era5"
 *	Creating your own fake ERA5 directories.
 *	make sure you keep the same subdirectory structure as used for the original ERA5 data on NCI. This is because the python scripts access and define these sub directories. These could be changed in the scripts at a later date but for the moment, and probably forever I’m keeping as is.
 
+* and then change the command in the app/nci_era5grib_parallel/rose-app.conf to point to the location of your modified python script.
+
+
 cd /scratch/gb02/cc6171/
 *	make your new base era5 directory - should move this off scratch.
 *	there are a lot of era5 directories to be created, it is better to write a script that creates the directories - chatGPT can help, I will look for the script I used.
