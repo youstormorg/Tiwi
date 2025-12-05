@@ -30,7 +30,7 @@ mkdir era5grib_parallel
 *	So this is now going to be my nci_era5grib_parralel directory:
 /home/563/cc6171/era5grib_parallel
 *	It is OK to keep in my home directory as it is just scripts so not large.
-•	Now copy Chermelle’s nci_era5grib_parralel python scripts to this directory.
+*	Now copy Chermelle’s nci_era5grib_parralel python scripts to this directory.
 cd era5grib_parallel
 cp /g/data/vk83/apps/conda/access-ram/2025.03.0/lib/python3.11/site-packages/era5grib_parallel/cdo_era5grib.py ./
 cp /g/data/vk83/apps/conda/access-ram/2025.03.0/lib/python3.11/site-packages/era5grib_parallel/nci_era5grib_parallel.py ./
