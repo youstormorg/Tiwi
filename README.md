@@ -27,7 +27,9 @@ This method was used in the middle of 2025 using the first full release of ACCES
 Thanks to Paul Gregory for helping out and Chermelle Engel for her python scripts and advice.
 
 What we are doing here is creating copies of some ACCESS-rAM3 scripts so that we can modify them to change the directory where they access the ERA5 directories.
-Create a new directory that will contain the nci_era5grib_parralel python scripts
+
+* Create a new directory that will contain the nci_era5grib_parralel python scripts
+
 cd
 mkdir era5grib_parallel
 *	So this is now going to be my nci_era5grib_parralel directory:
