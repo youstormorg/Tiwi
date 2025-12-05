@@ -45,11 +45,13 @@ vi cdo_era5grib.py
 ERADIR = "/scratch/gb02/cc6171/era5"
 *	Creating your own fake ERA5 directories.
 *	make sure you keep the same subdirectory structure as used for the original ERA5 data on NCI. This is because the python scripts access and define these sub directories. These could be changed in the scripts at a later date but for the moment, and probably forever I’m keeping as is.
+
 cd /scratch/gb02/cc6171/
 *	make your new base era5 directory - should move this off scratch.
 *	ALL OF THE BELOW IS BETTER DONE WITH CHATGPT CREATED SCRIPTS.
 
 mkdir era5
+
 cd era5
 *	ERA5 directories, create these directory structures for all the variables both 3D and 2D used as input to ACCESS-rAM3:
 
