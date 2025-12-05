@@ -85,6 +85,7 @@ era5/pressure-levels/reanalysis/.....
         "lsm, single, 172",
         "z, single, 129"]
 
+Once all this is done you can modify ERA5 data and place them in your new directories.
 
 # Domain setup
 ![Alt text](figs/Tiwi_domains.png "Optional Title")
