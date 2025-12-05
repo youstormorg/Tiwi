@@ -33,11 +33,15 @@ mkdir era5grib_parallel
 *	Now copy Chermelle’s nci_era5grib_parralel python scripts to this directory.
 
 cd era5grib_parallel
+
 cp /g/data/vk83/apps/conda/access-ram/2025.03.0/lib/python3.11/site-packages/era5grib_parallel/cdo_era5grib.py ./
+
 cp /g/data/vk83/apps/conda/access-ram/2025.03.0/lib/python3.11/site-packages/era5grib_parallel/nci_era5grib_parallel.py ./
-cp 
+ 
 *	Now change the ERA5 directory so that it now uses your modified "fake" ERA5 directories.
+
 vi cdo_era5grib.py
+
 ERADIR = "/scratch/gb02/cc6171/era5"
 *	Creating your own fake ERA5 directories.
 *	make sure you keep the same subdirectory structure as used for the original ERA5 data on NCI. This is because the python scripts access and define these sub directories. These could be changed in the scripts at a later date but for the moment, and probably forever I’m keeping as is.
