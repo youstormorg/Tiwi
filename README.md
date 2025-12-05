@@ -52,7 +52,7 @@ ERADIR = "/scratch/gb02/cc6171/era5"
 
 cd /scratch/gb02/cc6171/
 *	make your new base era5 directory - should move this off scratch.
-*	ALL OF THE BELOW IS BETTER DONE WITH CHATGPT CREATED SCRIPTS.
+*	there are a lot of era5 directories to be created, it is better to write a script that creates the directories - chatGPT can help, I will look for the script I used.
 
 mkdir era5
 
