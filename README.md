@@ -30,7 +30,6 @@ What we are doing here is creating copies of some ACCESS-rAM3 scripts so that we
 
 * Create a new directory that will contain the nci_era5grib_parralel python scripts
 
-cd
 mkdir era5grib_parallel
 *	So this is now going to be my nci_era5grib_parralel directory:
 /home/563/cc6171/era5grib_parallel
