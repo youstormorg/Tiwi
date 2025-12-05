@@ -23,7 +23,8 @@ https://github.com/21centuryweather/RNS_Sydney_1km
 
 # Creating the ERA5 decadal mid November climatologies
 see method_ERA5_climatology.md
-The method involves taking out the 10 to 19 Nov ERA5 data over a large Australia covering region for a decade, for example 2010 to 2019 and then averaging across all these mid-November days (100 in total) to create a 24 hour climatology hourly 1 day dataset representative of the pre-monsoon in that decade.
+Our updated method uses the ERA5 monthly averaged by hour data that is available on NCI.
+Our earlier method focussed on a mid-November environment and involved taking out the 10 to 19 Nov ERA5 data over a large Australia covering region for a decade, for example 2010 to 2019 and then averaging across all these mid-November days (100 in total) to create a 24 hour climatology hourly 1 day dataset representative of the pre-monsoon in that decade.
 see method_ERA5_climatology.md
 
 # Early tests
