@@ -63,6 +63,28 @@ era5/single-levels/reanalysis/......
 
 era5/pressure-levels/reanalysis/.....
 
+* here is a list of all the variables ACCESS-rAM3 uses:
+
+        "skt, single, 235",
+        "sp, single, 134",
+        "ci, single, 31",
+        "sst, single, 34",
+        "sd, single, 141",
+        "stl1, single, 139",
+        "stl2, single, 170",
+        "stl3, single, 183",
+        "stl4, single, 236",
+        "swvl1, single, 39",
+        "swvl2, single, 40",
+        "swvl3, single, 41",
+        "swvl4, single, 42",
+        "u, pressure, 131",
+        "v, pressure, 132",
+        "t, pressure, 130",
+        "q, pressure, 133",
+        "lsm, single, 172",
+        "z, single, 129"]
+
 
 # Domain setup
 ![Alt text](figs/Tiwi_domains.png "Optional Title")
