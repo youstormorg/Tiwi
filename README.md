@@ -4,6 +4,8 @@ A brief overview of the method - we modify the ERA5 initial and boundary conditi
 We copy over some of the ACCESS-rAM3 python scripts and redirect where they access the ERA5 files so that they read in our new files. Some other modifications are needed and will be documented here.
 So long as this is done correctly and the date and time of your ERA5 modified files match those you have set in ACCESS-rAM3, this should work however issues and potential instabilities due to ingesting modified data are possible.
 
+If you are new to ACCESS-rAM3 then the first thing to do is to run through the standard Lismore flood tutorial case.
+
 Tiwi Islands ACCESS 
 This repository contains information about the Tiwi Islands thunderstorm configuration. It is being maintained by Chris Chambers (cchambers@unimelb.edu.au)
 
