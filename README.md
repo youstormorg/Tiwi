@@ -20,7 +20,9 @@ https://github.com/21centuryweather/RNS_Sydney_1km
 
 # Setup ACCESS-rAM3 to read your modified ERA5 files
 
-As of December 2025 these are just rough notes on this process and the directories are those that I used. This method was used in the middle of 2025 using the first full release of ACCESS-rAM3 so there may be potential changes that have occured since - adapt accordingly ;) Thanks to Paul Gregory for helping out and Chermelle Engel for her python scripts and advice.
+As of December 2025 these are just rough notes on this process and the directories are those that I used. 
+This method was used in the middle of 2025 using the first full release of ACCESS-rAM3 so there may be potential changes that have occured since - adapt accordingly ;) 
+Thanks to Paul Gregory for helping out and Chermelle Engel for her python scripts and advice.
 What we are doing here is creating copies of some ACCESS-rAM3 scripts so that we can modify them to change the directory where they access the ERA5 directories.
 Create a new directory that will contain the nci_era5grib_parralel python scripts
 cd
