@@ -27,9 +27,9 @@ What we are doing here is creating copies of some ACCESS-rAM3 scripts so that we
 Create a new directory that will contain the nci_era5grib_parralel python scripts
 cd
 mkdir era5grib_parallel
-•	So this is now going to be my nci_era5grib_parralel directory:
+*	So this is now going to be my nci_era5grib_parralel directory:
 /home/563/cc6171/era5grib_parallel
-•	It is OK to keep in my home directory as it is just scripts so not large.
+*	It is OK to keep in my home directory as it is just scripts so not large.
 •	Now copy Chermelle’s nci_era5grib_parralel python scripts to this directory.
 cd era5grib_parallel
 cp /g/data/vk83/apps/conda/access-ram/2025.03.0/lib/python3.11/site-packages/era5grib_parallel/cdo_era5grib.py ./
