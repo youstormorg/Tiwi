@@ -15,7 +15,7 @@ https://docs.access-hive.org.au/models/run-a-model/run-access-ram/
 UM Chemistry page for details on adding variables using the rose GUI: https://www.ukca.ac.uk/wiki/index.php/UKCA_Chemistry_and_Aerosol_vn11.8_Tutorial_10
 
 
-Mat Lipson et al. github on the Sydney 1 km domain, it is this setup that was the base domain setup that I have used: 
+Mat Lipson et al. github on the Sydney 1 km domain, it is this setup that was the base domain setup that we have used: 
 https://github.com/21centuryweather/RNS_Sydney_1km
 
 # Domain setup
