@@ -63,7 +63,7 @@ era5/single-levels/reanalysis/......
 
 era5/pressure-levels/reanalysis/.....
 
-* here is a list of all the variables ACCESS-rAM3 uses:
+* here is a list of all the ERA5 variables that ACCESS-rAM3 uses as input:
 
         "skt, single, 235",
         "sp, single, 134",
