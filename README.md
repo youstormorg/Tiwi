@@ -36,6 +36,18 @@ The second set uses 5-year climatological data for q and t, while u and v are se
 
 /g/data/gx60/experiments/2025-06-11_tiwi/20001101T0000Z
 
+The full path for the innermost 1 km resolution domain, for example for the 1970 to 1974 November climatology runs is in:
+
+/g/data/gx60/experiments/2025-06-11_tiwi/19701101T0000Z/Tiwi_12h_1970-1974_windzero/Tiwi_1/RAL3P2/um/
+
+Within this we have the data files in netcdf format:
+
+umnsaa_sfc000.nc   surface variables
+
+umnsaa_pa000.nc    3D variables on theta model levels
+
+umnsaa_rh000.nc    3D variables on rh model levels 
+
 # Setup ACCESS-rAM3 to read your modified ERA5 files
 
 As of December 2025 these are just rough notes on this process and the directories are those that I used. 
