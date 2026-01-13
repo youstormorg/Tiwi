@@ -27,9 +27,13 @@ There are two sets of 11 simulations that use 5 year climatological November con
 The two sets differ in the 3D climatological data only.
 
 The first set uses 3D 5-year climatological data for all four of the 3D variables; u, v, q, t. This set is stored in:
+
 /g/data/gx60/experiments/2025-11-19_Tiwi_12h_1970-1974/19851101T0000Z
+
 IMPORTANT! The 2025-11-19_Tiwi_12h_1970-1974 part of the directory name does not need to be changed for different periods, it is just the name set when the storage was approved.
+
 The second set uses 5-year climatological data for q and t, while u and v are set to zero. This set is stored in:
+
 /g/data/gx60/experiments/2025-06-11_tiwi/20001101T0000Z
 
 # Setup ACCESS-rAM3 to read your modified ERA5 files
