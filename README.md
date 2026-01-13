@@ -20,6 +20,18 @@ UM Chemistry page for details on adding variables using the rose GUI: https://ww
 Mat Lipson et al. github on the Sydney 1 km domain, it is this setup that was the base domain setup that we have used: 
 https://github.com/21centuryweather/RNS_Sydney_1km
 
+# Where is the data?
+
+The output from the simulations has approved storage on gdata ACCESS-NRI project gx60 so you will have to request membership for that project.
+There are two sets of 11 simulations that use 5 year climatological November conditions 1970-1974  ..... 2020 to 2024 as the initial, and boundary conditions.
+The two sets differ in the 3D climatological data only.
+
+The first set uses 3D 5-year climatological data for all four of the 3D variables; u, v, q, t. This set is stored in:
+/g/data/gx60/experiments/2025-11-19_Tiwi_12h_1970-1974/19851101T0000Z
+IMPORTANT! The 2025-11-19_Tiwi_12h_1970-1974 part of the directory name does not need to be changed for different periods, it is just the name set when the storage was approved.
+The second set uses 5-year climatological data for q and t, while u and v are set to zero. This set is stored in:
+/g/data/gx60/experiments/2025-06-11_tiwi/20001101T0000Z
+
 # Setup ACCESS-rAM3 to read your modified ERA5 files
 
 As of December 2025 these are just rough notes on this process and the directories are those that I used. 
