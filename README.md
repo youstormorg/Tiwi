@@ -48,6 +48,23 @@ umnsaa_pa000.nc    3D variables on theta model levels
 
 umnsaa_rh000.nc    3D variables on rh model levels 
 
+# What are the available variables?
+
+| Variable           | CF standard_name                                | Description                                           |
+| ------------------ | ----------------------------------------------- | ----------------------------------------------------- |
+| `STASH_m01s00i012` | `mass_fraction_of_cloud_ice_in_air`             | Cloud ice mass fraction after timestep (QCF)          |
+| `STASH_m01s00i254` | `mass_fraction_of_cloud_liquid_water_in_air`    | Cloud liquid water mass fraction after timestep (QCL) |
+| `STASH_m01s00i271` | *inferred:* `mass_fraction_of_cloud_ice_in_air` | Cloud ice (crystals) after timestep                   |
+| `STASH_m01s00i272` | *inferred:* `mass_fraction_of_rainwater_in_air` | Rain water mixing ratio after timestep                |
+| `STASH_m01s00i395` | *inferred:* `mass_fraction_of_graupel_in_air`   | Graupel mixing ratio after timestep                   |
+| `STASH_m01s04i118` | *inferred:* `equivalent_reflectivity_factor`    | Total 3-D radar reflectivity (dBZ)                    |
+| `STASH_m01s15i101` | `height_above_reference_ellipsoid`              | Height of theta model levels above sea level          |
+| `STASH_m01s15i218` | `potential_vorticity_of_atmosphere_layer`       | Potential vorticity on model theta levels             |
+| `STASH_m01s16i004` | `air_temperature`                               | Air temperature on theta levels                       |
+| `STASH_m01s16i207` | *inferred:* `specific_humidity`                 | Total specific humidity (qT)                          |
+
+
+
 # Setup ACCESS-rAM3 to read your modified ERA5 files
 
 As of December 2025 these are just rough notes on this process and the directories are those that I used. 
