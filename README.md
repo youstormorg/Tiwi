@@ -50,6 +50,8 @@ umnsaa_rh000.nc    3D variables on rh model levels
 
 # What are the available variables?
 
+umnsaa_pa000.nc
+
 | Variable           | CF standard_name                                | Description                                           |
 | ------------------ | ----------------------------------------------- | ----------------------------------------------------- |
 | `STASH_m01s00i012` | `mass_fraction_of_cloud_ice_in_air`             | Cloud ice mass fraction after timestep (QCF)          |
@@ -63,6 +65,32 @@ umnsaa_rh000.nc    3D variables on rh model levels
 | `STASH_m01s16i004` | `air_temperature`                               | Air temperature on theta levels                       |
 | `STASH_m01s16i207` | *inferred:* `specific_humidity`                 | Total specific humidity (qT)                          |
 
+umnsaa_rh000.nc
+
+| Variable           | CF standard_name                   | Description                                |
+| ------------------ | ---------------------------------- | ------------------------------------------ |
+| `STASH_m01s15i102` | `height_above_reference_ellipsoid` | Height of rho model levels above sea level |
+| `STASH_m01s30i001` | `x_wind`                           | Zonal (x-component) wind on rho grid       |
+| `STASH_m01s30i002` | `y_wind`                           | Meridional (y-component) wind on rho grid  |
+| `STASH_m01s30i003` | `upward_air_velocity`              | Vertical wind component on rho grid        |
+
+umnsaa_sfc000.nc
+
+| Variable           | CF standard_name                                     | Description                             |
+| ------------------ | ---------------------------------------------------- | --------------------------------------- |
+| `STASH_m01s03i225` | `x_wind`                                             | 10 m zonal wind component (B grid)      |
+| `STASH_m01s03i226` | `y_wind`                                             | 10 m meridional wind component (B grid) |
+| `STASH_m01s03i234` | `surface_upward_latent_heat_flux`                    | Surface latent heat flux                |
+| `STASH_m01s03i236` | `air_temperature`                                    | Air temperature at 1.5 m                |
+| `STASH_m01s03i237` | `specific_humidity`                                  | Specific humidity at 1.5 m              |
+| `STASH_m01s03i250` | `dew_point_temperature`                              | Dewpoint temperature at 1.5 m           |
+| `STASH_m01s04i111` | *inferred:* `maximum_equivalent_reflectivity_factor` | Maximum radar reflectivity in column    |
+| `STASH_m01s04i112` | *inferred:* `equivalent_reflectivity_factor`         | Radar reflectivity at 1 km AGL          |
+| `STASH_m01s04i201` | `stratiform_rainfall_amount`                         | Large-scale (stratiform) rain amount    |
+| `STASH_m01s04i203` | `stratiform_rainfall_flux`                           | Large-scale (stratiform) rainfall rate  |
+| `STASH_m01s16i222` | `air_pressure_at_sea_level`                          | Mean sea-level pressure                 |
+| `STASH_m01s20i114` | *inferred:* `convective_available_potential_energy`  | Surface-based CAPE (SBCAPE)             |
+| `STASH_m01s21i104` | *inferred:* `number_of_lightning_flashes`            | Number of lightning flashes             |
 
 
 # Setup ACCESS-rAM3 to read your modified ERA5 files
