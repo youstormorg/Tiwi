@@ -61,6 +61,7 @@ umnsaa_rh000.nc    3D variables on rh model levels
 
 # What are the available variables?
 Below are listed all the variables available in the data. The data is divided into 3 netcdf files for each simulations. The filename is above each list.
+The variable names are unfortunately in a form e.g. `STASH_m01s00i012`. These names refer to Met Office stash codes.
 
 umnsaa_pa000.nc
 
