@@ -60,6 +60,7 @@ umnsaa_pa000.nc    3D variables on theta model levels
 umnsaa_rh000.nc    3D variables on rh model levels 
 
 # What are the available variables?
+Below are listed all the variables available in the data. The data is divided into 3 netcdf files for each simulations. The filename is above each list.
 
 umnsaa_pa000.nc
 
