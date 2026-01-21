@@ -4,6 +4,7 @@ Greetings fellow ACCESS-rAM3er! This github is for work related to ACCESS-rAM3 T
 
 # Overview of the simulations
 The simulations are 12 hours long from 0000 UTC to 1200 UTC. In Tiwi Islands local time (UTC + 0930) this is from 0930 to 2130.
+
 We modify the ERA5 initial and boundary conditions creating new ERA5 files that have identical formatting and place them in a new "fake" ERA5 directory tree. 
 We copy over some of the ACCESS-rAM3 python scripts and redirect where they access the ERA5 files so that they read in our new files. Some other modifications are needed and will be documented here.
 So long as this is done correctly and the date and time of your ERA5 modified files match those you have set in ACCESS-rAM3, this should work however issues and potential instabilities due to ingesting modified data are possible.
@@ -12,6 +13,7 @@ Some other updates, there is now an additional set of simulations that are based
 /g/data/gx60/experiments/2025-11-19_Tiwi_12h_1970-1974
 These are initialized from 5 year period climatologies of all the 3D variables so including the winds.
 
+![Alt text](figs/timeline.png "Optional Title")
 
 # Domain setup
 ![Alt text](figs/Tiwi_domains.png "Optional Title")
