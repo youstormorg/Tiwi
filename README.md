@@ -16,7 +16,7 @@ These are initialized from 5 year period climatologies of all the 3D variables s
 ![Alt text](figs/timeline.png "Optional Title")
 
 # Domain setup
-![Alt text](figs/Tiwi_domains.png "Optional Title")
+![Alt text](figs/Tiwi_domains.png "simulations 5 year November timeline")
 
 
 
