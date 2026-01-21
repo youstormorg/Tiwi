@@ -1,6 +1,7 @@
 # Tiwi Island thunderstorm simulations
 
-Greetings fellow ACCESS-rAM3er! This github is for work related to ACCESS-rAM3 Tiwi Island thunderstorm simulations run under modified ERA5 initial and boundary conditions.
+Greetings fellow ACCESS-rAM3er! This github is for work related to ACCESS-rAM3 Tiwi Island thunderstorm simulations run under modified ERA5 initial and boundary conditions from November during the pre-monsoon season when the island thunderstorms are most active.
+This data is then used to initialize high-resolution thunderstorm simulations to investigate thunderstorm response to historical environments back to 1970.
 
 # Overview of the simulations
 The simulations are 12 hours long from 0000 UTC to 1200 UTC. In Tiwi Islands local time (UTC + 0930) this is from 0930 to 2130.
