@@ -42,6 +42,10 @@ https://github.com/21centuryweather/RNS_Sydney_1km
 # Where is the data?
 
 The output from the simulations has approved storage on gdata ACCESS-NRI project gx60 so you will have to request membership for that project.
+
+If you have your NCI account now you can request to join project gx60 using these instructions:
+https://opus.nci.org.au/spaces/Help/pages/13141289/How+to+connect+to+a+project
+
 There are two sets of 11 simulations that use 5 year climatological November conditions 1970-1974  ..... 2020 to 2024 as the initial, and boundary conditions.
 The two sets differ in the 3D climatological data only.
 
