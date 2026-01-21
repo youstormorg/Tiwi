@@ -3,14 +3,19 @@
 Greetings fellow ACCESS-rAM3er! This github is for work related to ACCESS-rAM3 Tiwi Island thunderstorm simulations run under modified ERA5 initial and boundary conditions.
 
 # Overview of the simulations
-
-A brief overview of the method - we modify the ERA5 initial and boundary conditions creating new ERA5 files that have identical formatting and place them in a new "fake" ERA5 directory tree. 
+The simulations are 12 hours long from 0000 UTC to 1200 UTC. In Tiwi Islands local time (UTC + 0930) this is from 0930 to 2130.
+We modify the ERA5 initial and boundary conditions creating new ERA5 files that have identical formatting and place them in a new "fake" ERA5 directory tree. 
 We copy over some of the ACCESS-rAM3 python scripts and redirect where they access the ERA5 files so that they read in our new files. Some other modifications are needed and will be documented here.
 So long as this is done correctly and the date and time of your ERA5 modified files match those you have set in ACCESS-rAM3, this should work however issues and potential instabilities due to ingesting modified data are possible.
 
 Some other updates, there is now an additional set of simulations that are based on November 5 year climatological diurnal cycles going back to 1970 in:  
 /g/data/gx60/experiments/2025-11-19_Tiwi_12h_1970-1974
 These are initialized from 5 year period climatologies of all the 3D variables so including the winds.
+
+
+# Domain setup
+![Alt text](figs/Tiwi_domains.png "Optional Title")
+
 
 
 # Key links, where to get help and information
@@ -177,10 +182,8 @@ era5/pressure-levels/reanalysis/.....
 
 Once all this is done you can modify ERA5 data and place them in your new directories.
 
-# Domain setup
-![Alt text](figs/Tiwi_domains.png "Optional Title")
-
 # Creating the ERA5 decadal mid November climatologies
+
 see method_ERA5_climatology.md
 Our updated method uses the ERA5 monthly averaged by hour data that is available on NCI.
 Our earlier method focussed on a mid-November environment and involved taking out the 10 to 19 Nov ERA5 data over a large Australia covering region for a decade, for example 2010 to 2019 and then averaging across all these mid-November days (100 in total) to create a 24 hour climatology hourly 1 day dataset representative of the pre-monsoon in that decade.
