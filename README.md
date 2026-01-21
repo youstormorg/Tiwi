@@ -1,6 +1,6 @@
 # Tiwi Island thunderstorm simulations
 
-Greetings fellow ACCESS-rAM3er! This github is in very early stages but the end goal will be to fully explain our Tiwi Island thunderstorm simulations run under modified ERA5 initial and boundary conditions. This type of setup could be used for other experiments where the initial data needs to be modified.
+Greetings fellow ACCESS-rAM3er! This github is for work related to ACCESS-rAM3 Tiwi Island thunderstorm simulations run under modified ERA5 initial and boundary conditions.
 
 # Overview of the simulations
 
