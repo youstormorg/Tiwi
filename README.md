@@ -35,7 +35,6 @@ https://docs.access-hive.org.au/models/run-a-model/run-access-ram/
 
 UM Chemistry page for details on adding variables using the rose GUI: https://www.ukca.ac.uk/wiki/index.php/UKCA_Chemistry_and_Aerosol_vn11.8_Tutorial_10
 
-
 Mat Lipson et al. github on the Sydney 1 km domain, it is this setup that was the base domain setup that we have used: 
 https://github.com/21centuryweather/RNS_Sydney_1km
 
@@ -48,6 +47,8 @@ https://opus.nci.org.au/spaces/Help/pages/13141289/How+to+connect+to+a+project
 
 Join the ACCESS Hive forum and then join the Atmosphere Working Group
 https://www.access-nri.org.au/join-community-working-groups/
+
+Once you are a member of gx60 you should be able to access the data. 
 
 There are two sets of 11 simulations that use 5 year climatological November conditions 1970-1974  ..... 2020 to 2024 as the initial, and boundary conditions.
 The two sets differ in the 3D climatological data only.
@@ -73,6 +74,12 @@ umnsaa_sfc000.nc   surface variables
 umnsaa_pa000.nc    3D variables on theta model levels
 
 umnsaa_rh000.nc    3D variables on rh model levels 
+
+# Making plots
+
+Some example Jupyter notebook scripts can be found in this github in the subdirectory "Jupyter_scripts"
+
+[Jupyter_scripts](./Jupyter_scripts)
 
 # What are the available variables?
 Below are listed all the variables available in the data. The data is divided into 3 netcdf files for each simulations. The filename is above each list.
