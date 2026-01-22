@@ -77,9 +77,7 @@ umnsaa_rh000.nc    3D variables on rh model levels
 
 # Making plots
 
-Some example Jupyter notebook scripts can be found in this github in the subdirectory "Jupyter_scripts"
-
-[Jupyter_scripts](./Jupyter_scripts)
+Some example Jupyter notebook scripts can be found in this github in the subdirectory [Jupyter_scripts](./Jupyter_scripts)
 
 # What are the available variables?
 Below are listed all the variables available in the data. The data is divided into 3 netcdf files for each simulations. The filename is above each list.
