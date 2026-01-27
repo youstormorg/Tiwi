@@ -1,12 +1,14 @@
 # Tiwi Island thunderstorm simulations
 
 Greetings fellow ACCESS-rAM3er! This github is for work related to ACCESS-rAM3 Tiwi Island thunderstorm simulations run under modified ERA5 initial and boundary conditions from November during the pre-monsoon season when the island thunderstorms are most active.
-This data is then used to initialize high-resolution thunderstorm simulations to investigate thunderstorm response to historical environments back to 1970.
+This data is used to initialize high-resolution thunderstorm simulations to investigate thunderstorm response to historical environments back to 1970.
 
 # Overview of the simulations
 The simulations are 12 hours long from 0000 UTC to 1200 UTC. In Tiwi Islands local time (UTC + 0930) this is from 0930 to 2130.
 
-We modify the ERA5 initial and boundary conditions creating new ERA5 files that have identical formatting and place them in a new "fake" ERA5 directory tree. 
+Our aim is to create representative November environments for 5 year periods going back to 1970. Do do this, ERA5 data is averaged every hour for November of every year. We then average these hourly averages across 5 year periods. The first 5-year period is 1970 to 1974 and the last is 2020 to 2024 so there are 11 periods.
+
+The method for using our modified ERA5 files as initial and boundary conditions for ACCESS-rAM3 simulations is explained in section below "Setup ACCESS-rAM3 to read your modified ERA5 files" and briefly summarised here. We modify the ERA5 initial and boundary conditions creating new ERA5 files that have identical formatting and place them in a new "fake" ERA5 directory tree. 
 We copy over some of the ACCESS-rAM3 python scripts and redirect where they access the ERA5 files so that they read in our new files. Some other modifications are needed and will be documented here.
 So long as this is done correctly and the date and time of your ERA5 modified files match those you have set in ACCESS-rAM3, this should work however issues and potential instabilities due to ingesting modified data are possible.
 
