@@ -42,6 +42,8 @@ https://github.com/21centuryweather/RNS_Sydney_1km
 
 The output from the simulations has approved storage on gdata ACCESS-NRI project gx60 so you will have to request membership for that project.
 
+Also join project xp65
+
 If you have your NCI account now you can request to join project gx60 using these instructions:
 https://opus.nci.org.au/spaces/Help/pages/13141289/How+to+connect+to+a+project
 
@@ -51,6 +53,8 @@ https://www.access-nri.org.au/join-community-working-groups/
 Or you can ask one of the co-chairs of the ACCESS-NRI atmospheric modelling working group (such as Yi Huang) to approve your request to join gx60.
 
 Once you are a member of gx60 you should be able to access the data. 
+
+
 
 There are two sets of 11 simulations that use 5 year climatological November conditions 1970-1974  ..... 2020 to 2024 as the initial, and boundary conditions.
 The two sets differ in the 3D climatological data only.
@@ -80,6 +84,8 @@ umnsaa_rh000.nc    3D variables on rh model levels
 # Making plots
 
 Some example Jupyter notebook scripts can be found in this github in the subdirectory [Jupyter_scripts](./Jupyter_scripts)
+
+As mentioned you will need to join project gx60 and project xp65
 
 # What are the available variables?
 Below are listed all the variables available in the data. The data is divided into 3 netcdf files for each simulations. The filename is above each list.
